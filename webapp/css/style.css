@@ -78,7 +78,12 @@ body {
     align-items: flex-end;
 }
 
+button:focus {
+    outline: 0;
+}
+
 .btn {
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
     border-radius: 10px;
 }
 
