@@ -1,87 +1,94 @@
 /* Enter your custom styles here */
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    overflow: hidden;
+    background: url("../assets/img/holiday.jpg") center / cover;
 }
 
 .sapUiBody {
-  background: linear-gradient( 181deg,  rgba(2,0,97,1) 15%, rgba(97,149,219,1) 158.5% );	
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .main {
-  height: 80vh;
-  width: 80vw;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  display: flex;
-  border-radius: 30px;
-  box-shadow: 0px 0px 20px 0px black;
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: flex;
+    border-radius: 30px !important;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2.5px);
+    box-shadow: 3px 3px 20px 3px black;
+    color: white;
 }
 
 .sidenav {
-  height: 100%;
-  width: 20%;
-  background: whitesmoke;
-  box-shadow: 0px 5px 20px 0px black;
-  padding: 1rem;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  text-align: center;
+    height: 100%;
+    width: 20%;
+    box-shadow: 0px 5px 20px 0px black;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
-.sidenav > div {
-  width: 100%;
-  height: 28%;
-  border: solid 1px blue;
-  display: flex;
-  justify-content: space-evenly;
+.sidenav>div {
+    width: 100%;
+    height: 28%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .user {
-  align-items: flex-start;
-  flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
 
 .user .userpic {
-  width: 30%;
-  background: yellow;
-  margin-right: 1rem;
+    width: 30%;
+    background: skyblue;
+    margin-right: 1rem;
 }
 
 .user .username {
-  width: 70%;
+    width: 70%;
 }
 
 .info {
-  align-items: center;
-  flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .info .infoitem {
-  width: 100%;
+    width: 100%;
 }
 
 .buttons {
-  align-items: flex-end;
+    align-items: flex-end;
 }
 
 .btn {
-  padding: 0.75rem;
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .content {
-  height: 100%;
-  width: 80%;
-  padding: 1rem;
-  background: white;
+    height: 100%;
+    width: 80%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.grid {
+    margin: 1rem;
 }
